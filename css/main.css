@@ -51,6 +51,7 @@ body {
     background-color: rgba(237, 35, 159, 0.6);
     filter: blur(4px);
 }
+
 /* Main header styles */
 
 .main-header__brand {
@@ -216,7 +217,7 @@ body {
 }
 
 .service-card__title {
-    color:#05364d;
+    color: #05364d;
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 20px;
@@ -247,4 +248,46 @@ body {
 .service-card:hover .service-card__link {
     color: white;
 }
-    
+
+/* Clients section style*/
+
+.clients {
+    padding-top: 100px;
+}
+
+.client-item>div {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.client-item__info {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.client-item__image img {
+    width: 40%;
+}
+
+.client-item__name {
+    font: 20px;
+    margin-bottom: 4px;
+}
+
+.client-item__position {
+    font-size: 14px;
+    font-weight: 300;
+    color: #5d6d75;
+}
+
+.client-item__review {
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: 300;
+    color: #5d6d75;
+}
+
+.client-item__rate {
+    color: #FFd805;
+}
